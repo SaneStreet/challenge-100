@@ -15,6 +15,10 @@ def AlphabetIndex(text):
     # find the according ascii character and subtract 96 from it
     for character in chars.lower():
         number = ord(character) - 96
+
+        # Extra challenge
+        # binaryNumber = bin(number).replace("0b", "")
+
         # add the numbers to the empty array
         numbers.append(number)
     # print the numbers, with space between them
